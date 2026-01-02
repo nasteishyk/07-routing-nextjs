@@ -63,15 +63,6 @@ function NoteForm({ closeModal }: NoteFormProps) {
     } catch (error) {
       console.error('Failed to create note:', error);
     }
-
-    // try {
-    //   await newNoteCreate(values); // чекаємо mutateAsync
-
-    //   actions.resetForm();
-    //   closeModal();
-    // } catch (error) {
-    //   console.error('Failed to create note:', error);
-    // }
   };
 
   return (

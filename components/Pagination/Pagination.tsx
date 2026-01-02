@@ -1,5 +1,4 @@
 import ReactPaginate from 'react-paginate';
-// import { useState } from 'react';
 import css from './Pagination.module.css';
 
 interface PaginationProps {

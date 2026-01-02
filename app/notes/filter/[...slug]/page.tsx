@@ -15,8 +15,6 @@ const NotesByCategory = async ({ params }: Props) => {
   const initialSearch = '';
   const { slug } = await params;
   const category = slug[0] === 'all' ? undefined : slug[0];
-  //   const response = await fetchNotes(initialPage, initialSearch, category);
-  //   console.log(category);
 
   const queryClient = new QueryClient();
 

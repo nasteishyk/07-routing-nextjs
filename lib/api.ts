@@ -7,10 +7,6 @@ interface HTTPGetResponse {
   totalPages: number;
 }
 
-// interface HTTPPostDeleteResponse {
-//   data: Note;
-// }
-
 export const fetchNotes = async (
   currentPage: number,
   search: string,
@@ -80,18 +76,3 @@ export const getSingleNote = async (id: string) => {
 
   return data;
 };
-
-// export const getCategories = async () => {
-//   const getCategoriesParams = {
-//     headers: {
-//       Authorization: `Bearer ${process.env.NEXT_PUBLIC_NOTEHUB_TOKEN}`,
-//     },
-//   };
-
-//   const { data } = await axios.get<Category[]>(
-//     `https://notehub-public.goit.study/api/categories`,
-//     getCategoriesParams
-//   );
-//   console.log(data);
-//   return data;
-// };

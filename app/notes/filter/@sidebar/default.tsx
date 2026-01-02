@@ -2,7 +2,6 @@ import css from '@/app/notes/filter/@sidebar/NotesSidebar.module.css';
 import Link from 'next/link';
 
 const NotesSidebar = async () => {
-  //   const categories = await getCategories();
   const tags = ['Work', 'Personal', 'Meeting', 'Shopping', 'Todo'];
 
   return (

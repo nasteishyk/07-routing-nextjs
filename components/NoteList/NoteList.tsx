@@ -1,4 +1,3 @@
-// import type { deleteNote } from '../../services/noteService';
 'use client';
 
 import { useMutation, useQueryClient } from '@tanstack/react-query';
